@@ -1,0 +1,13 @@
+public interface Radio 
+{
+	public void ON();
+	public void OFF();
+	public boolean isON();
+	public String getFrequency();
+	public void changeFrequency(String freq);
+	public String getStation();
+	public void Forward();
+	public void Backward();
+	public void setMemory(String station, int position, String freq);
+	public String toString();
+}
